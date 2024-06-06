@@ -14,7 +14,7 @@ setup(name='medutils-mri',
   author_email='k.hammernik@tum.de',
   url='https://github.com/khammernik/medutils/',
   packages=['medutils', 'medutils.optimization', 'medutils.optimization_th'],
-  install_requires=['numpy', 'scipy', 'h5py', 'matplotlib', 'scikit-image'],
+  install_requires=['numpy', 'scipy', 'h5py', 'matplotlib', 'scikit-image', 'tqdm'],
   license="Apache 2.0",
   classifiers=[
       'Development Status :: 4 - Beta',
